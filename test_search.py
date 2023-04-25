@@ -55,15 +55,3 @@ def test_search_by_params(data_structured):
     assert round(
         float(response.json()[0]['lon']), ROUND_LEVEL
         ) == round(float(data_structured[7]), ROUND_LEVEL)
-# for data in data_structured:
-#     params = {
-#         'street': data[0],
-#         'city': data[1],
-#         'county': data[2],
-#         'state': data[3],
-#         'country': data[4],
-#         'postalcode': data[5]
-#     }
-#     print(params)
-#     response = get(TESTED_URL, params=params)
-#     print(response.json())
