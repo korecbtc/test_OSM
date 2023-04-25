@@ -80,10 +80,16 @@ def test_reverse(data_reverse):
     if 'house_number' in response.json()['address']:
         assert data_reverse[0] == response.json()['address']['house_number']
     if 'road' in response.json()['address']:
-        assert data_reverse[1].lower() in response.json()['address']['road'].lower()
+        assert data_reverse[1].lower() in (
+            response.json()['address']['road'].lower()
+        )
     if 'city' in response.json()['address']:
-        assert data_reverse[2].lower() in response.json()['address']['city'].lower()
-    assert data_reverse[3].lower() in response.json()['address']['country'].lower()
+        assert data_reverse[2].lower() in (
+            response.json()['address']['city'].lower()
+        )
+    assert data_reverse[3].lower() in (
+        response.json()['address']['country'].lower()
+    )
 
 
 # for i in data_reverse:
