@@ -1,0 +1,9 @@
+street,city,county,state,country,postalcode,expected_lat,expected_lon
+Paulay Ede 3,Budapest, , ,Hungary, ,47.4989174,19.0556286
+3 cromwell street, stoke-on-trent, , , , ,53.0363168,-2.1683558
+pikk,tallin, , , , ,59.4426986,24.7492949
+valapolku 9, , , , , ,60.20176905,24.661255949999997
+east 4th street 1,Ainsworth, , , , ,42.5498912,-99.8524355
+Market Square Southwest,Washington, , , , ,38.88111395,-77.02689284335429
+High street 64, Bewdley, , ,United Kingdom, ,52.3746823,-2.3154621
+Lloyd Street 2,New York,Brooklyn Community District 17,New York,USA,239091,40.650588,-73.951475
