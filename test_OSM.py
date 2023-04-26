@@ -1,8 +1,9 @@
-from requests import get, ConnectionError
-import pytest
 import csv
 import logging
+
 import allure
+import pytest
+from requests import ConnectionError, get
 
 TESTED_URL = "https://nominatim.openstreetmap.org/search"
 TESTED_URL_REVERSE = "https://nominatim.openstreetmap.org/reverse"
