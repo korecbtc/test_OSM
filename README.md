@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 - Запустите тесты
 ```
-pytest --alluredir=my_allure_reports test_OSM.py
+pytest
 ```
 ### Результаты
 Производилось тестирование двух эндпоинтов:
