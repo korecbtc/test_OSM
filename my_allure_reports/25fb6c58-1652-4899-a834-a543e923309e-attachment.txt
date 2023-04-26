@@ -1,0 +1,1 @@
+2023-04-26 14:02:06 [31m[1mERROR[0m HTTPSConnectionPool(host='ndominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=Ainsworth%2Beast%2B4th%2Bstreet%2B1&format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020E4F0D7B70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))

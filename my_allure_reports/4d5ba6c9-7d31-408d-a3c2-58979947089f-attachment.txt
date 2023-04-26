@@ -1,0 +1,1 @@
+2023-04-26 14:56:28 [31m[1mERROR[0m HTTPSConnectionPool(host='nodgminatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=valapolku%2B9&format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000029534E12588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))

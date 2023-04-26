@@ -1,0 +1,1 @@
+2023-04-26 13:02:16 [31m[1mERROR[0m HTTPSConnectionPool(host='noominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=pikk%2Btallin&format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002211F516A20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
